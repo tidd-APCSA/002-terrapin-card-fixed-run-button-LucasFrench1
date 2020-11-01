@@ -27,11 +27,11 @@ public class TerrapinCard {
 
   public TerrapinCard loadMoney(double moneyToAdd){
     if(moneyToAdd < 0){}
-    else if(!((balance+moneyToAdd) > 200)){
+    else if(!((balance+moneyToAdd) > 150)){
       balance += moneyToAdd;
     }
     else{
-      balance = 200;
+      balance = 150;
     }
     return this;
   }
