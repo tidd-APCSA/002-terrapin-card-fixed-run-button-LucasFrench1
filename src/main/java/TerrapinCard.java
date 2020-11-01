@@ -35,4 +35,8 @@ public class TerrapinCard {
     }
     return this;
   }
+
+  public double getBalance(){
+    return balance;
+  }
 }
